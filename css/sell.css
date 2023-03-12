@@ -1,0 +1,130 @@
+.container {
+    width: 80%;
+    margin-left: 10%;
+    box-sizing: border-box;
+}
+
+.nav {
+    height: 50px;
+    line-height: 45px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #009688;
+    border: 1px solid gray;
+    box-shadow: 3px 3px 1px 1px #666;
+}
+
+.nav a {
+    font-size: 22px;
+}
+
+.hollow {
+    text-shadow: 0 0 2px hsl(40, 28.57%, 28.82%), 0 0 2px hsl(40, 28.57%, 28.82%), 0 0 2px hsl(40, 28.57%, 28.82%);
+    /*多个叠加*/
+    font-size: 30px;
+    color: #fff;
+}
+
+.nav a:hover {
+    color: black;
+}
+
+.main {
+    margin-top: 20px;
+    padding: 20px 0 0 50px;
+    border:5px solid #009688;
+}
+
+.row1 {
+    margin-top: 20px;
+}
+
+.row2 {
+    margin-top: 20px;
+}
+
+.row2 h1 {
+    margin-bottom: 10px;
+}
+
+.row2Span {
+    margin-left: 30px;
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.row2 input {
+    margin-left: 50px;
+    height: 26px;
+}
+
+.row2 button{
+    height: 28px;
+    background-color: rgb(0,150,136);
+    border-style: none;
+    cursor: pointer;
+}
+
+.row3{
+    margin-left: 126px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.row3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+
+.row3 input{
+    margin-left: 20px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.row3 button{
+    margin-left: 180px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.row4{
+    margin-left: 126px;
+    margin-top: 20px;
+}
+
+.row4 p{
+    margin-left: 65px;
+    border: 1px solid gray;
+    line-height: 30px;
+}
+
+.row4 textarea{
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+.checkBtn{
+    width: 180px;
+    height: 40px;
+    margin: 20px 0 0 400px;
+    background-color: rgb(0,150,136);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #009688;
+    margin-top: 30px;
+    color: #fff;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.footer p{
+    text-align: center;
+    margin-top: 15px;
+}
